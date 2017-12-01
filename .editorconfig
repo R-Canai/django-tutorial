@@ -1,0 +1,52 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+# Common
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = null
+
+
+# Python
+# Reference is https://pep8-ja.readthedocs.io/ja/latest/
+[*.py]
+indent_style = space
+indent_size = 4
+
+# PHP
+# Reference is http://www.php-fig.org/psr/psr-2/
+[*.php]
+indent_style = space
+indent_size = 4
+
+# Ruby
+# Reference is https://github.com/cookpad/styleguide/blob/master/ruby.ja.md
+[*.{rb, erb}]
+indent_style = space
+indent_size = 2
+
+# JavaScript / Vue
+# Reference is https://mitsuruog.github.io/javascript-style-guide/
+[*.{js, json, vue}]
+indent_style = space
+indent_size = 2
+
+# TypeScript
+# Reference is https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines
+[*.{ts}]
+indent_style = space
+indent_size = 4
+
+# HTML
+[*.{html, htm}]
+indent_style = space
+indent_size = 2
+
+# CSS
+[*.{css, scss, sass, less}]
+indent_style = space
+indent_size = 2
